@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B0E45B2F1D8FF9A30033441A"
-               BuildableName = "SwiftGifLib.framework"
-               BlueprintName = "SwiftGifLib"
+               BuildableName = "SwiftyGifLib.framework"
+               BlueprintName = "SwiftyGifLib"
                ReferencedContainer = "container:SwiftyGif.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0E45B2F1D8FF9A30033441A"
-            BuildableName = "SwiftGifLib.framework"
-            BlueprintName = "SwiftGifLib"
+            BuildableName = "SwiftyGifLib.framework"
+            BlueprintName = "SwiftyGifLib"
             ReferencedContainer = "container:SwiftyGif.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B0E45B2F1D8FF9A30033441A"
-            BuildableName = "SwiftGifLib.framework"
-            BlueprintName = "SwiftGifLib"
+            BuildableName = "SwiftyGifLib.framework"
+            BlueprintName = "SwiftyGifLib"
             ReferencedContainer = "container:SwiftyGif.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

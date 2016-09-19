@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B0E45B341D8FF9A30033441A /* SwiftGifLib.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E45B321D8FF9A30033441A /* SwiftGifLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0E45B371D8FF9A30033441A /* SwiftGifLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E45B301D8FF9A30033441A /* SwiftGifLib.framework */; };
-		B0E45B381D8FF9A30033441A /* SwiftGifLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0E45B301D8FF9A30033441A /* SwiftGifLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0E45B371D8FF9A30033441A /* SwiftyGifLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E45B301D8FF9A30033441A /* SwiftyGifLib.framework */; };
+		B0E45B381D8FF9A30033441A /* SwiftyGifLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0E45B301D8FF9A30033441A /* SwiftyGifLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B0E45B3D1D8FF9BF0033441A /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE121E11CB2A3DD00960D00 /* SwiftyGifManager.swift */; };
 		B0E45B3E1D8FF9BF0033441A /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE121E21CB2A3DD00960D00 /* UIImage+SwiftyGif.swift */; };
 		B0E45B3F1D8FF9BF0033441A /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE121E31CB2A3DD00960D00 /* UIImageView+SwiftyGif.swift */; };
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B0E45B381D8FF9A30033441A /* SwiftGifLib.framework in Embed Frameworks */,
+				B0E45B381D8FF9A30033441A /* SwiftyGifLib.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B0E45B301D8FF9A30033441A /* SwiftGifLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftGifLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E45B301D8FF9A30033441A /* SwiftyGifLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGifLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E45B321D8FF9A30033441A /* SwiftGifLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftGifLib.h; sourceTree = "<group>"; };
 		B0E45B331D8FF9A30033441A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA29E9321CA9340E00E579D5 /* SwiftyGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E45B371D8FF9A30033441A /* SwiftGifLib.framework in Frameworks */,
+				B0E45B371D8FF9A30033441A /* SwiftyGifLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +139,7 @@
 			children = (
 				FA29E9321CA9340E00E579D5 /* SwiftyGif.app */,
 				FA29E9461CA9340F00E579D5 /* SwiftyGifTests.xctest */,
-				B0E45B301D8FF9A30033441A /* SwiftGifLib.framework */,
+				B0E45B301D8FF9A30033441A /* SwiftyGifLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -205,9 +205,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B0E45B2F1D8FF9A30033441A /* SwiftGifLib */ = {
+		B0E45B2F1D8FF9A30033441A /* SwiftyGifLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0E45B3B1D8FF9A30033441A /* Build configuration list for PBXNativeTarget "SwiftGifLib" */;
+			buildConfigurationList = B0E45B3B1D8FF9A30033441A /* Build configuration list for PBXNativeTarget "SwiftyGifLib" */;
 			buildPhases = (
 				B0E45B2B1D8FF9A30033441A /* Sources */,
 				B0E45B2C1D8FF9A30033441A /* Frameworks */,
@@ -218,9 +218,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftGifLib;
+			name = SwiftyGifLib;
 			productName = SwiftGifLib;
-			productReference = B0E45B301D8FF9A30033441A /* SwiftGifLib.framework */;
+			productReference = B0E45B301D8FF9A30033441A /* SwiftyGifLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FA29E9311CA9340E00E579D5 /* SwiftyGif */ = {
@@ -302,7 +302,7 @@
 			targets = (
 				FA29E9311CA9340E00E579D5 /* SwiftyGif */,
 				FA29E9451CA9340F00E579D5 /* SwiftyGifTests */,
-				B0E45B2F1D8FF9A30033441A /* SwiftGifLib */,
+				B0E45B2F1D8FF9A30033441A /* SwiftyGifLib */,
 			);
 		};
 /* End PBXProject section */
@@ -377,7 +377,7 @@
 /* Begin PBXTargetDependency section */
 		B0E45B361D8FF9A30033441A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0E45B2F1D8FF9A30033441A /* SwiftGifLib */;
+			target = B0E45B2F1D8FF9A30033441A /* SwiftyGifLib */;
 			targetProxy = B0E45B351D8FF9A30033441A /* PBXContainerItemProxy */;
 		};
 		FA29E9481CA9340F00E579D5 /* PBXTargetDependency */ = {
@@ -605,13 +605,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0E45B3B1D8FF9A30033441A /* Build configuration list for PBXNativeTarget "SwiftGifLib" */ = {
+		B0E45B3B1D8FF9A30033441A /* Build configuration list for PBXNativeTarget "SwiftyGifLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E45B391D8FF9A30033441A /* Debug */,
 				B0E45B3A1D8FF9A30033441A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA29E92D1CA9340E00E579D5 /* Build configuration list for PBXProject "SwiftyGif" */ = {
 			isa = XCConfigurationList;
